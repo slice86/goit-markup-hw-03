@@ -8,6 +8,8 @@
     background-color: #ffffff;
     font-family: Roboto, sans-serif;
   }
+  html{box-sizing: border-box;
+  }
   
   h1,
   h2,
