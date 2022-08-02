@@ -115,6 +115,7 @@ section {
   margin-right: 50px;
 }
 
+
 .nav-list {
   font-family: "Roboto";
   font-weight: 500;
@@ -141,10 +142,18 @@ section {
 .nav-link:focus {
   color: var(--accent-color);
 }
-
+.contacts-item {
+  color: #757575;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  
+}
 .contacts-item:hover,
 .contacts-item:focus {
-  color: var(--accent-color);
+ color:#2196F3;
 }
 
 /* ----------------------------hero----------------------------*/
@@ -369,6 +378,7 @@ footer .logo {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+.footer-link:hover ,.footer-link:focus{color: #2196F3;}
 .footer-link {
   font-family: "Roboto";
   font-style: normal;
@@ -430,7 +440,7 @@ footer .logo {
   letter-spacing: 0.06em;
   color: #212121;
   text-align: left;
-  margin-bottom: 0;
+  margin-bottom: 4px;
 }
 
 .description-card {
